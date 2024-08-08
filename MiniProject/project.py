@@ -10,7 +10,7 @@ while True:
 
         if player_choice in rps_array:
             if player_choice == computer_choice:
-                print(f"you both chose {player_choice}, try again")
+                print(f"you both chose [{player_choice}], try again")
             elif player_choice == "rock" and computer_choice == "scissors":
                 print(f"you win! you chose [{player_choice}] and computer chose [{computer_choice}]")
                 break
